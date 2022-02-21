@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+header {
+    background-color: black;
+    color: white;
+    min-height: 150px;
+    padding: 10px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+body {
+    margin: 0;
+}
+
+.normal {
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 2.5em;
+}
+
+.fundo1 {
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    min-height: 200px;
+}
+
+.fundo1>p {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.616);
+    min-width: 150px;
+    max-width: 300px;
+    font-size: 2.5em;
+}
+
+.fundo2 {
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    min-height: 200px;
+}
+
+.fundo2>p {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.616);
+    min-width: 150px;
+    max-width: 300px;
+    font-size: 2.5em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
