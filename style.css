@@ -26,6 +26,15 @@ header > p {
     margin-bottom: 40px;
 }
 
+header > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
 body {
     margin: 0;
     font-family: var(--fonte1);
@@ -81,4 +90,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
